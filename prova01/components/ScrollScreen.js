@@ -22,12 +22,12 @@ export default function App() {
                                 : 'list-outline';
                         } else if (route.name === 'Secao') {
                             iconName = focused
-                                ? 'config'
-                                : 'configuration-outline';
+                                ? 'bookmarks'
+                                : 'bookmarks-outline';
                         } else if (route.name === 'Formulario') {
                             iconName = focused
-                                ? 'form'
-                                : 'form-outline';
+                                ? 'document'
+                                : 'document-outline';
                         }
                         return <Ionicons name={iconName} size={size} color={color} />;
                     },
